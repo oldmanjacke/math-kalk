@@ -25,7 +25,7 @@ namespace Calculator
                     if (num2 != 0)
                     {
                         Console.WriteLine("Enter a non-zero divisor: ");
-                        num2 = Convert.ToInt32(Console.ReadLine());
+                        num2 = Convert.ToInt32(Console.ReadLine()); //något lustig här
                         result = num1 / num2;
                     }
                     break;
